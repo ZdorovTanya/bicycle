@@ -29,6 +29,7 @@
     flex-direction: column;
 }
 .main-screen {
+    /* позволяем увеличиваться, но запрещаем уменьшаться */
     flex: 1 0 100%;
     position: relative;
 }
@@ -39,7 +40,4 @@
     top: 0;
     left: 0;
 }
-.ibg {
-}
-.content {
-}
+
