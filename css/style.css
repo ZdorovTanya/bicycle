@@ -130,6 +130,7 @@
   top: 0;
   left: 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: rgba(100, 194, 158, 0.5);
@@ -137,6 +138,15 @@
   opacity: 0;
   visibility: hidden;
   transition-duration: 0.5s;
+}
+
+.item__logo span{
+    margin: 10px 0px 0px 0px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    color: #fff;
 }
 .item__image {
   position: absolute;
@@ -193,7 +203,104 @@
     .brands_last .brands__column:nth-child(2){
         order: 1;
     }
-    .brands_last .brands__column:nth-child(3){
+    .brands_last .brands__column:nth-child(3 ){
         order: 3;
     }
+    .shop__btn{
+        padding: 0px 30px;
+    }
+    .footer{
+        padding: 50px 0px;
+    }
+}
+/* -------------------- */
+.slider {
+    background-color: #f7f7f7;
+    padding: 120px 0 60px 0;
+    text-align: center;
+}
+.container {
+}
+.slider__body {
+}
+.slider__item {
+}
+.slider__icon {
+    margin: 0px 0px 20px 0px;
+}
+.slider__title {
+    margin: 0px 0px 20px 0px;
+    color: #353738;
+    font-size: 18px;
+    font-weight: 700;
+}
+.slider__title span{
+    font-weight: 300;
+    color: #848789;
+}
+.slider__text {
+    text-align: center;
+    color: #848789;
+    font-size: 24px;
+    font-style: italic;
+    line-height: 34px;
+}
+/* ----------------------------------------- */
+.shop {
+}
+.shop__body {
+    display: flex;
+}
+.shop__column {
+    flex: 0 1 16.666%;
+}
+.shop__column_b {
+    flex: 0 1 33.333%;
+}
+.shop__block {
+}
+.block__shop {
+    height: 100%;
+}
+.block-shop__row {
+    display: flex;
+}
+.block-shop__column {
+    flex: 0 1 50%;
+}
+.block-shop {
+}
+.block-shop__item.block-shop__item_b{
+    padding: 0px 0px 200.5% 0px;
+}
+.block-shop__item{
+    padding: 0px 0px 50% 0px;
+    height: auto;
+}
+
+.block-shop__item_l{
+    padding: 0px 0px 100% 0px;
+}
+
+
+
+
+.shop__footer {
+    padding: 75px 0;
+    text-align: center;
+    background-color: #282f35;
+}
+.container {
+}
+.shop__btn {
+    display: inline-block;
+    height: 50px;
+    line-height: 48px;
+    letter-spacing: 2.8px;
+    font-size: 14px;
+    border: 1px solid white;
+    color: #fff;
+    padding: 0px 60px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
